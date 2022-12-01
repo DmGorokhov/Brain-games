@@ -9,3 +9,7 @@ How to setup and run brain-even game watch:
 ### brain-calc game install and run guide:
 How to setup and run brain-calc game watch:
 [![asciicast](https://asciinema.org/a/541355.svg)](https://asciinema.org/a/541355)
+
+### brain-gcd game run guide:
+How to run brain-gcd (greatest common divisor) game watch:
+[![asciicast](https://asciinema.org/a/541832.svg)](https://asciinema.org/a/541832)
