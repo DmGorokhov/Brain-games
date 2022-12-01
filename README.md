@@ -13,3 +13,7 @@ How to setup and run brain-calc game watch:
 ### brain-gcd game run guide:
 How to run brain-gcd (greatest common divisor) game watch:
 [![asciicast](https://asciinema.org/a/541832.svg)](https://asciinema.org/a/541832)
+
+### brain-progression game run guide:
+How to run brain-progression game watch:
+[![asciicast](https://asciinema.org/a/541910.svg)](https://asciinema.org/a/541910)
