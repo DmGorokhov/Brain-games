@@ -6,7 +6,7 @@ def run_game(game):
     user_name = prompt.string('May I have your name? ')
     print(f'Hello, {user_name}!')
 
-    print(game.game_question)
+    print(game.GAME_QUESTION)
 
     for game_laps in range(3):
         question, correct_answer = game.result()
