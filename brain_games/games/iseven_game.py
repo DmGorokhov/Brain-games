@@ -11,9 +11,9 @@ def is_even(number):
 
 
 def result():
-    number = randint(1, 1000)
-    if is_even(number):
+    random_number = randint(1, 1000)
+    if is_even(random_number):
         correct_answer = 'yes'
     else:
         correct_answer = 'no'
-    return number, correct_answer
+    return random_number, correct_answer
