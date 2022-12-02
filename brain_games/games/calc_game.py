@@ -1,6 +1,6 @@
 from random import choice, choices
 
-game_question = 'What is the result of the expression?'
+GAME_QUESTION = 'What is the result of the expression?'
 
 
 def calculate_expession(number1, number2, operation):
