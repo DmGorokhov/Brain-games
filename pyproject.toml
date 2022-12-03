@@ -1,10 +1,21 @@
 [tool.poetry]
-name = "hexlet-code"
+name = "brain-games_DmGorokhov"
 version = "0.1.0"
-description = ""
+description = "Five short console-games for mental gymnastics"
 authors = ["Dmitry Gorokhov <gorokhov86@gmail.com>"]
 readme = "README.md"
 packages = [ { include = "brain_games" } ]
+classifiers = [
+    "Topic :: Games"
+    "Programming Language :: Python :: 3.10",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Enviroment :: console"
+    "Intended Audience :: Customer service",
+    "Natural language :: English"
+]
+repository = https://github.com/DmGorokhov/python-project-49.git
+
 
 [tool.poetry.dependencies]
 python = "^3.10"
