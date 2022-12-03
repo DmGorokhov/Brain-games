@@ -6,15 +6,15 @@ authors = ["Dmitry Gorokhov <gorokhov86@gmail.com>"]
 readme = "README.md"
 packages = [ { include = "brain_games" } ]
 classifiers = [
-    "Topic :: Games"
+    "Topic :: Games",
     "Programming Language :: Python :: 3.10",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
-    "Enviroment :: console"
+    "Enviroment :: console",
     "Intended Audience :: Customer service",
     "Natural language :: English"
 ]
-repository = https://github.com/DmGorokhov/python-project-49.git
+repository = "https://github.com/DmGorokhov/python-project-49.git"
 
 
 [tool.poetry.dependencies]
