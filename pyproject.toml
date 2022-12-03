@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "brain-games_DmGorokhov"
+name = "hexlet-code"
 version = "0.1.0"
 description = "Five short console-games for mental gymnastics"
 authors = ["Dmitry Gorokhov <gorokhov86@gmail.com>"]
