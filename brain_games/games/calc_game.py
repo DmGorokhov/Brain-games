@@ -3,22 +3,22 @@ from random import choice, choices
 GAME_QUESTION = 'What is the result of the expression?'
 
 
-def calculate_expession(number1, number2, operation):
+def calculate_expession(first_number, second_number, operation):
     if operation == '+':
-        cacl_result = number1 + number2
+        calc_result = first_number + second_number
     elif operation == '-':
-        cacl_result = number1 - number2
+        calc_result = first_number - second_number
     else:
-        cacl_result = number1 * number2
+        calc_result = first_number * second_number
 
-    return cacl_result
+    return calc_result
 
 
-def result():
-    number1, number2 = choices(range(30), k=2)
+def get_game():
+    random_num_1, random_num_2 = choices(range(30), k=2)
     operation = choice(['+', '-', '*'])
 
-    expression = f'{number1} {operation} {number2}'
-    correct_answer = str(calculate_expession(number1, number2, operation))
+    question = f'{random_num_1} {operation} {random_num_2}'
+    correct_answer = calculate_expession(random_num_1, random_num_2, operation)
 
-    return expression, correct_answer
+    return question, str(correct_answer)
