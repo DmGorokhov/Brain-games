@@ -9,7 +9,7 @@ def run_game(game):
     print(game.GAME_QUESTION)
 
     for game_laps in range(3):
-        question, correct_answer = game.result()
+        question, correct_answer = game.get_game()
         print('Question:', question)
 
         user_answer = prompt.string('Your answer: ')
@@ -19,6 +19,8 @@ def run_game(game):
         else:
             print(f'\'{user_answer}\' is wrong answer ;(. '
                   f'Correct_answer was \'{correct_answer}\'.')
-            return print(f'Let\'s try again, {user_name}!')
+            print(f'Let\'s try again, {user_name}!')
+            return
 
-    return print(f'Congratulations, {user_name}!')
+    print(f'Congratulations, {user_name}!')
+    return
