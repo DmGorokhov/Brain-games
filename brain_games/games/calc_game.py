@@ -3,6 +3,7 @@ from random import choice, choices
 GAME_QUESTION = 'What is the result of the expression?'
 OPERATORS = ['+', '-', '*']
 
+
 def calculate_expession(first_number, second_number, operation):
     if operation == '+':
         calc_result = first_number + second_number
