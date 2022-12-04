@@ -11,12 +11,22 @@
 * Poetry 1.2.2
 * Make (is used to run a game through console-command)
 
-### How to install:
+## How to install:
+---
+### With the use of pip:
 ```
 python3 -m pip install --user git+https://github.com/DmGorokhov/python-project-49.git
 ```
 * Brain-even game and brain-calc game demonstration contain example of installation
+### Download from git repository:
+```
+git clone https://github.com/DmGorokhov/python-project-49.git
+Make install          # install poetry for dependency management and packaging
+Make build            # create package in dist/
+Make package-install  # install package
+```
 
+---
 ### Console-commands to start a game:
 ```
 brain-even
